@@ -35,7 +35,5 @@ void kmain(void)
 		i = i + 2;
 	}
 
-	writeline("man");
-
 	return;
 }
