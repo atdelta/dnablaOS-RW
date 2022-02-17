@@ -1,3 +1,12 @@
+/*
+*
+*    libc.h
+*
+*    dnablaOS / Rewrited
+*        (c) atdelta, 2022
+*
+*/
+
 char *vidptr = (char*)0xb8000
 
 unsigned int i = 0;
