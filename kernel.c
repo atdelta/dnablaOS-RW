@@ -6,6 +6,8 @@
 *        (c) atdelta, 2022
 *
 */
+#include "libc.h"
+
 void kmain(void)
 {
 	const char *str = "dnablaOS - Started";
@@ -32,5 +34,8 @@ void kmain(void)
 		++j;
 		i = i + 2;
 	}
+
+	writeline("man");
+
 	return;
 }
